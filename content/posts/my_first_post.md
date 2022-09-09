@@ -14,4 +14,4 @@ This is my first hugo post
   * this is a list
   * another item
 
-- [ ] this is a todo
+- [x] this is a todo

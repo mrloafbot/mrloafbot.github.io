@@ -12,24 +12,44 @@ paginate     = 10
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
-  # Subtitle for home
-  homeSubtitle = "who else but Mrloafbot?"
+  tagline = "dev site"
+  author = "Mrloafbot"
+  description = "mrloafbot.github.io"
+  logoBig = "/images/osprey-logo.png"
+  logoSmall = "/images/osprey-logo.png"
+  favicon = "favicon.ico"
+  opengraphImage = "/images/osprey.png"
+  email = ""
+  googleTagManager = ""
+  customCSS = false
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+  # Social media links in footer
+  twitter = "mrloafbot"
+  linkedin = "mrloafbot"
+  github = "mrloafbot"
+  facebook = "mrloafbot"
 
-  # Enable sharing buttons, if you like
-  enableSharingButtons = true
+  # Copyright and theme author credit in footer
+  copyright = false
+  credit = false
 
-  # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
-  images = [""]
+  # Cache busting of static resources (additional set up required)
+  cacheBustCSS = true
+  cacheBustJS = true
 
-[taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
+  # Code highlighting with highlight.js
+  highlightJS = true
+  highlightJSStyle = "" # For custom highlight.js styles, add your /path/to/styles/default.css
+  highlightJSScript = "" # For custom highlight.js languages config, add your /path/to/highlight.pack.js
+
+  # Choose either Formspree contact form or Basin contact form
+  ajaxFormspree = false
+  ajaxFormspreeGold = false
+  ajaxBasin = "https://usebasin.com/f/0eae7044d4c2"
+
+  # Lazy loading with lazysizes
+  lazyloading = true
+
 
 [languages]
   [languages.en]

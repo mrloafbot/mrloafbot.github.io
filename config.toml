@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "MrLoafbot"
 #theme = "hello-friend-ng"
 #theme = "ananke"
-theme = "osprey"
+theme = "hugo-casper-v4"
 paginate     = 10
 
 [params]
@@ -15,11 +15,11 @@ paginate     = 10
   tagline = "dev site"
   author = "Mrloafbot"
   description = "mrloafbot.github.io"
-  logoBig = "/images/osprey-logo.png"
-  logoSmall = "/images/osprey-logo.png"
+  #logoBig = "/images/osprey-logo.png"
+  #logoSmall = "/images/osprey-logo.png"
   favicon = "favicon.ico"
-  opengraphImage = "/images/osprey.png"
-  email = ""
+  #opengraphImage = "/images/osprey.png"
+  email = "mrloafbot@gmail.com"
   googleTagManager = ""
   customCSS = false
 

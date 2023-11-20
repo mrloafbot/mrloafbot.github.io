@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mrloafbot.github.io</title>
+    <link>http://mrloafbot.github.io/</link>
+    <description>Recent content on Mrloafbot.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 14 Sep 2022 21:12:52 -0400</lastBuildDate>
+    <atom:link href="http://mrloafbot.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Info</title>
+      <link>http://mrloafbot.github.io/info/info/</link>
+      <pubDate>Wed, 14 Sep 2022 21:12:52 -0400</pubDate>
+      <guid>http://mrloafbot.github.io/info/info/</guid>
+      <description>My info Name
+Email
+etc.. more</description>
+    </item>
+    <item>
+      <title>My_first_post</title>
+      <link>http://mrloafbot.github.io/posts/my_first_post/</link>
+      <pubDate>Thu, 08 Sep 2022 20:59:44 -0400</pubDate>
+      <guid>http://mrloafbot.github.io/posts/my_first_post/</guid>
+      <description>First Post This is my first hugo post
+this is a list another item this is a todo </description>
+    </item>
+  </channel>
+</rss>

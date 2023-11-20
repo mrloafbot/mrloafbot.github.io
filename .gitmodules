@@ -7,3 +7,6 @@
 [submodule "themes/osprey"]
 	path = themes/osprey
 	url = https://github.com/tomanistor/osprey.git
+[submodule "themes/hugo-casper-v4"]
+	path = themes/hugo-casper-v4
+	url = https://github.com/emhaye/hugo-casper-v4.git

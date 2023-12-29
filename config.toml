@@ -1,5 +1,5 @@
 baseURL = "http://mrloafbot.github.io"
-languageCode = "en-us"
+#languageCode = "en-us"
 title = "MrLoafbot"
 #theme = "hello-friend-ng"
 #theme = "ananke"
@@ -8,6 +8,15 @@ paginate = 5
 DisqusShortname = "YOUR_SHORT_NAME_HERE"
 Copyright = "All rights reserved - 2015"
 canonifyurls = true
+
+[languages]
+  [languages.en]
+    disabled = false
+    languageCode = ''
+    languageDirection = ''
+    languageName = ''
+    title = ''
+    weight = 0
 
 
 [params]

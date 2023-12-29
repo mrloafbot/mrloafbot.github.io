@@ -1,12 +1,3 @@
-[submodule "themes/hello-friend-ng"]
-	path = themes/hello-friend-ng
-	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
-[submodule "themes/ananke"]
-	path = themes/ananke
-	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
-[submodule "themes/osprey"]
-	path = themes/osprey
-	url = https://github.com/tomanistor/osprey.git
 [submodule "themes/hugo-casper-v4"]
 	path = themes/hugo-casper-v4
 	url = https://github.com/emhaye/hugo-casper-v4.git

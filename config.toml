@@ -22,13 +22,13 @@ canonifyurls = true
 [params]
   description = "Welcome to my website"
   metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
-  cover = "images/cover.jpg"
+  #cover = "images/cover.jpg"
   author = "Mrloafbot"
   authorlocation = "The Internet"
   authorwebsite = "http://vjeantet.fr"
   authorbio= "my bio"
-  logo = "images/logo.png"
-  googleAnalyticsUserID = "UA-79101-12"
+  #logo = "images/logo.png"
+  #googleAnalyticsUserID = "UA-79101-12"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   RSSLink = "http://feeds.feedburner.com/..."
   githubName = "vjeantet"

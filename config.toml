@@ -4,84 +4,125 @@ title = "MrLoafbot"
 #theme = "hello-friend-ng"
 #theme = "ananke"
 theme = "hugo-casper-v4"
-paginate     = 10
+paginate = 5
+DisqusShortname = "YOUR_SHORT_NAME_HERE"
+Copyright = "All rights reserved - 2015"
+canonifyurls = true
+
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
-
-  tagline = "dev site"
+  description = "Welcome to my website"
+  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  cover = "images/cover.jpg"
   author = "Mrloafbot"
-  description = "mrloafbot.github.io"
-  #logoBig = "/images/osprey-logo.png"
-  #logoSmall = "/images/osprey-logo.png"
-  favicon = "favicon.ico"
-  #opengraphImage = "/images/osprey.png"
-  email = "mrloafbot@gmail.com"
-  googleTagManager = ""
-  customCSS = false
+  authorlocation = "The Internet"
+  authorwebsite = "http://vjeantet.fr"
+  authorbio= "my bio"
+  logo = "images/logo.png"
+  googleAnalyticsUserID = "UA-79101-12"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = "http://feeds.feedburner.com/..."
+  githubName = "vjeantet"
+  twitterName = "vjeantet"
+  # facebookName = ""
+  # codepenName = ""
+  # linkedinName = ""
+  # stackoverflowId = ""
+  # keybaseName = ""
+  # flickrName = ""
+  # instagramName = ""
+  # email = ""
+  # pinterestName = ""
+  # googlePlusName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  
+  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+  hjsStyle = "default"
 
-  # Social media links in footer
-  twitter = "mrloafbot"
-  linkedin = "mrloafbot"
-  github = "mrloafbot"
-  facebook = "mrloafbot"
-
-  # Copyright and theme author credit in footer
-  copyright = false
-  credit = false
-
-  # Cache busting of static resources (additional set up required)
-  cacheBustCSS = true
-  cacheBustJS = true
-
-  # Code highlighting with highlight.js
-  highlightJS = true
-  highlightJSStyle = "" # For custom highlight.js styles, add your /path/to/styles/default.css
-  highlightJSScript = "" # For custom highlight.js languages config, add your /path/to/highlight.pack.js
-
-  # Choose either Formspree contact form or Basin contact form
-  ajaxFormspree = false
-  ajaxFormspreeGold = false
-  ajaxBasin = "https://usebasin.com/f/0eae7044d4c2"
-
-  # Lazy loading with lazysizes
-  lazyloading = true
+  [params.social]
+    twitter = "your_twitter"
 
 
-[languages]
-  [languages.en]
-    title = "Mrloafbot.github.io"
-    subtitle = "A simple theme for Hugo"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
 
-    [languages.en.params.logo]
-      logoText = "hello friend ng"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+# [params]
+#   dateform        = "Jan 2, 2006"
+#   dateformShort   = "Jan 2"
+#   dateformNum     = "2006-01-02"
+#   dateformNumTime = "2006-01-02 15:04"
 
-  # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
-    weight = 3
-  [[menu.main]]
-    name = "About"
-    url  = "/#about"
-    weight = 1
-  [[menu.main]]
-    name = "Work"
-    url  = "/#work"
-    weight = 2
-  [[menu.main]]
-    name = "Contact"
-    url  = "/#contact"
-    weight = 4
+#   tagline = "dev site"
+#   author = "Mrloafbot"
+#   description = "mrloafbot.github.io"
+#   #logoBig = "/images/osprey-logo.png"
+#   #logoSmall = "/images/osprey-logo.png"
+#   favicon = "favicon.ico"
+#   #opengraphImage = "/images/osprey.png"
+#   email = "mrloafbot@gmail.com"
+#   googleTagManager = ""
+#   customCSS = false
+
+#   # Social media links in footer
+#   twitter = "mrloafbot"
+#   linkedin = "mrloafbot"
+#   github = "mrloafbot"
+#   facebook = "mrloafbot"
+
+#   # Copyright and theme author credit in footer
+#   copyright = false
+#   credit = false
+
+#   # Cache busting of static resources (additional set up required)
+#   cacheBustCSS = true
+#   cacheBustJS = true
+
+#   # Code highlighting with highlight.js
+#   highlightJS = true
+#   highlightJSStyle = "" # For custom highlight.js styles, add your /path/to/styles/default.css
+#   highlightJSScript = "" # For custom highlight.js languages config, add your /path/to/highlight.pack.js
+
+#   # Choose either Formspree contact form or Basin contact form
+#   ajaxFormspree = false
+#   ajaxFormspreeGold = false
+#   ajaxBasin = "https://usebasin.com/f/0eae7044d4c2"
+
+#   # Lazy loading with lazysizes
+#   lazyloading = true
+
+
+# [languages]
+#   [languages.en]
+#     title = "Mrloafbot.github.io"
+#     subtitle = "A simple theme for Hugo"
+#     keywords = ""
+#     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+#     readOtherPosts = "Read other posts"
+
+#     [languages.en.params.logo]
+#       logoText = "hello friend ng"
+#       logoHomeLink = "/"
+#     # or
+#     #
+#     # path = "/img/your-example-logo.svg"
+#     # alt = "Your example logo alt text"
+
+#   # And you can even create generic menu
+#   [[menu.main]]
+#     identifier = "blog"
+#     name       = "Blog"
+#     url        = "/posts"
+#     weight = 3
+#   [[menu.main]]
+#     name = "About"
+#     url  = "/#about"
+#     weight = 1
+#   [[menu.main]]
+#     name = "Work"
+#     url  = "/#work"
+#     weight = 2
+#   [[menu.main]]
+#     name = "Contact"
+#     url  = "/#contact"
+#     weight = 4

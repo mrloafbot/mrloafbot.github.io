@@ -1,3 +1,4 @@
 # Thing todo
 
-1. update config.toml by  theme/casper/confifg.toml so project builds
+[x] - update config.toml by  theme/casper/confifg.toml so project builds
+[ ] - add links to about and posts, they work, just not linked

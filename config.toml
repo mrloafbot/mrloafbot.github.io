@@ -30,8 +30,8 @@ canonifyurls = true
   #googleAnalyticsUserID = "UA-79101-12"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   RSSLink = "http://feeds.feedburner.com/..."
-  githubName = "vjeantet"
-  twitterName = "vjeantet"
+  githubName = "mrloafbot"
+  twitterName = "mrloafbot"
   # facebookName = ""
   # codepenName = ""
   # linkedinName = ""
@@ -52,7 +52,18 @@ canonifyurls = true
 
   [params.social]
     twitter = "your_twitter"
-
+  
+  # This is what messes up the build 
+  # [[menu.main]]
+  #   identifier = "blog"
+  #   name       = "Blog"
+  #   url        = "/posts"
+  #   weight = 3
+  
+  # [[menu.main]]
+  #   name = "About"
+  #   url  = "/#about"
+  #   weight = 1
 
 
 # [params]

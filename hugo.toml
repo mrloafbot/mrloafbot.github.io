@@ -9,9 +9,9 @@ DisqusShortname = "YOUR_SHORT_NAME_HERE"
 Copyright = "All rights reserved - 2015"
 canonifyurls = true
 
-[taxonomies]
-  category = 'categories'
-  tag = 'tags'
+#[taxonomies]
+#  category = 'categories'
+#  tag = 'tags'
 
 [languages]
   [languages.en]

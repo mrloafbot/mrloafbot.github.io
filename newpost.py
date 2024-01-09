@@ -31,7 +31,7 @@ headerTemplate = '''
 +++
 title = 'postName'
 date = currentDate
-draft = false
+draft = true
 tags = []
 +++
 '''

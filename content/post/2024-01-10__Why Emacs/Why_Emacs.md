@@ -2,7 +2,7 @@
 +++
 title = 'Why Emacs'
 date = 2024-01-10
-draft = true
+draft = false
 tags = []
 +++
 

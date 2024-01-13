@@ -6,4 +6,6 @@ draft = false
 
 ## My first Post !!!
 
-This is really cool, if it works. 
+This is really cool, if it works.
+
+It works and this is emacs

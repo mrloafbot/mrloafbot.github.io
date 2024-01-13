@@ -19,3 +19,16 @@ They solve different problems.
 * Org mode
 
 * More than Vim, less than Vscode
+
+## Short Cuts
+
+Exit Cx Cc
+
+Open File 
+
+File Browser Cx d  for dired, directory editor
+
+Kill Buffer Cx 0
+
+Undo Cx u, _ or /
+

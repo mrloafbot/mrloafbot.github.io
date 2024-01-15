@@ -24,11 +24,15 @@ They solve different problems.
 
 Exit Cx Cc
 
-Open File 
+Open File Cx f ( find file )
 
 File Browser Cx d  for dired, directory editor
 
-Kill Buffer Cx 0
+Kill Window Cx 0
+
+Select or New Buffer Cx b
+
+Switch Window Cx( left or right arrow ) 
 
 Undo Cx u, _ or /
 

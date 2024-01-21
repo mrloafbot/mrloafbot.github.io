@@ -2,6 +2,6 @@
 
 this is a sample site
 
-[how to make a new post](doc/How-To-Make-A-New-Post.md)
+[how to make a new post](docs/How-To-Make-A-New-Post.md)
 
 

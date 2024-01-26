@@ -6,6 +6,10 @@ draft = false
 tags = []
 +++
 
+
+
 # Posting from the Web
+
+[](./vscode_server.png)
 
 This post was created in vs code running in a docker !

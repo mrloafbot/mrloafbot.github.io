@@ -25,6 +25,7 @@ canonifyurls = true
 [params]
   description = "Welcome to my website"
   metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  ### cover is the background image on landing page
   cover = "landing_page/bubb.jpg"
   author = "Mrloafbot"
   authorlocation = "The Internet"
@@ -62,7 +63,7 @@ canonifyurls = true
     [[menu.main]]
       identifier = "blog"
       name       = "Blog"
-      url        = "/posts"
+      url        = "/"
       weight = 2
     
     [[menu.main]]

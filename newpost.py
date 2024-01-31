@@ -6,7 +6,7 @@ from datetime import date
 
 ## Gather Variables
 script_directory = os.path.dirname(os.path.abspath(sys.argv[0]))
-newPostPath = os.path.join( script_directory, 'content', 'post')
+newPostPath = os.path.join(script_directory, 'content', 'post')
 today = str(date.today())
 headerTemplate = '''
 +++
@@ -21,10 +21,10 @@ tags = []
 postName = input('Name of Post\n')
 
 ## process variables
-postFileName = postName.replace(" ", "_")
-postFolderName = today+"__"+postName
+postCleanName = (postName.replace(" ", "_")).lower()
+postFolderName = today+"__"+postCleanName
 newPostPath = os.path.join( script_directory, 'content', 'post', postFolderName)
-newPostFile = os.path.join(newPostPath, (postFileName+".md"))
+newPostFile = os.path.join(newPostPath, "index.md")
 headerDate = headerTemplate.replace('currentDate', today )
 headerTitle =  headerDate.replace('postName', postName)
 headerOut = headerTitle

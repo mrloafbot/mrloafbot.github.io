@@ -1,5 +1,5 @@
 ---
 name: "Mrloafbot"
 bio: "welp, that happened"
-image: "static/toaster.jpg"
+avatar: "static/toaster.jpg"
 ---

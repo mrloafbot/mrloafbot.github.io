@@ -14,6 +14,8 @@ title = 'postName'
 date = currentDate
 draft = true
 tags = []
+authors = ['mrloafbot']
+image = ''
 +++
 '''
 

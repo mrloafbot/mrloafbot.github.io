@@ -4,7 +4,7 @@ title = 'Why Emacs'
 date = 2024-01-10
 draft = false
 tags = ['emacs', 'linux', 'dev']
-authors = ['Mrloafbot']
+authors = ['mrloafbot']
 image = "post/2024-01-10__why_emacs/emacs.png"
 +++
 

@@ -4,7 +4,7 @@ title = 'a fart in the wind'
 date = 2024-01-30
 draft = false
 tags = []
-authors = ['mrloafbot']
+authors = mrloafbot
 +++
 
 # How to make better choices

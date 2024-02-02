@@ -4,7 +4,7 @@ title = 'A Post From Code'
 date = 2024-01-25
 draft = false
 tags = []
-authors = ['mrloafbot']
+authors = mrloafbot
 image = "post/2024-01-25__a_post_from_code/vscode_server.png"
 +++
 

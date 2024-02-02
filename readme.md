@@ -1,5 +1,8 @@
 # Mrloafbot.github.io
 
+![](https://github.com/mrloafbot/mrloafbot.github.io/actions/workflows/pages/badge.svg)
+
+
 this is a sample site
 
 [how to make a new post](docs/How-To-Make-A-New-Post.md)

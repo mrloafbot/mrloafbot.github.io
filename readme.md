@@ -1,6 +1,6 @@
 # Mrloafbot.github.io
 
-![](https://github.com/mrloafbot/mrloafbot.github.io/actions/workflows/pages/badge.svg)
+![](https://github.com/mrloafbot/mrloafbot.github.io/actions/workflows/pages.yml/badge.svg?event=push)
 
 
 this is a sample site

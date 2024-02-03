@@ -12,8 +12,8 @@ headerTemplate = '''
 +++
 title = 'postName'
 date = currentDate
-draft = true
-tags = []
+draft = false
+tags = ['new']
 authors = ['mrloafbot']
 image = ''
 +++

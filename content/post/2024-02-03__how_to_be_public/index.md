@@ -14,30 +14,36 @@ image = ''
 
 This is the source of truth and everything interesting
 
-#. Social Media Links
+* Social Media Links
 
-#. Podcast 
+* Podcast 
 
-#. Youtube
+* Youtube
 
 2. Project Sites
 
-#. A site for every "project" or thing you do
+* A site for every "project" or thing you do
 
-#. Root website, static site, also a public repo
+* Root website, static site, also a public repo
 
-#. Public Git Instance, to contribute
+* Public Git Instance, to contribute
 
-#. Doc's site for project,  as static site, with public repo
+* Doc's site for project,  as static site, with public repo
 
 3. Workflow
 
-#. Create "content"
+* Create "content"
 
-#. Write blog post that is fully descritptive
+* Write blog post that is fully descritptive
 
-#. Post to social media
+* Post to social media
 
-#. Youtube video
+* Youtube video
 
-#. Mention on Podcast
+* Mention on Podcast
+
+4. Domains
+
+* use domains to delinate versions
+
+*  *.dev-thing.com,  *.thing.com

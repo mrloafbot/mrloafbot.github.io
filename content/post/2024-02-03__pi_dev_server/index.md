@@ -20,3 +20,9 @@ Setup a raspberry pi as a dev server for hugo websites.
 * Depending on branch 
 * Push to stage
 * Push to production
+
+# Implementation
+
+* use lxc for each "server"
+* run docker on each lxc to run all the services
+

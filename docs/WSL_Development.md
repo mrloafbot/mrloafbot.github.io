@@ -52,7 +52,7 @@ Type "wsl --install" and hit enter.
 
 This will install WSL and an Ubuntu Linux VM on your computer. 
 
-# Ubuntu Setup
+## Ubuntu Setup
 
 Launch Ubuntu from the Start menu, or from Windows Terminal (right click on the shortcut, or the down arrow head in an open windows terminal). 
 

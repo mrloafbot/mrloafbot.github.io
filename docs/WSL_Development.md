@@ -52,6 +52,8 @@ Type "wsl --install" and hit enter.
 
 This will install WSL and an Ubuntu Linux VM on your computer. 
 
+When installing Ubuntu the password is invisible no characters will appear when entering your password.
+
 ## Ubuntu Setup
 
 Launch Ubuntu from the Start menu, or from Windows Terminal (right click on the shortcut, or the down arrow head in an open windows terminal). 
@@ -71,9 +73,10 @@ sudo apt upgrade -y
 This now upgrades your packages. The "-y" just says yes to every upgrade so you dont have to confirm each one. 
 
 ```
-sudo apt install python git vim
+sudo apt install -y python3 python3-pip git vim curl
+
 ```
-This will install Python, Git and VIm. Python is a programing language. Git is version control software. Vim is the text editor. We will be using VS Code to edit our code, but it's good to have something in the terminal too. 
+This will install Python, Pip, Git, Vim and Curl. Python is a programing language. Pip is a package manager for python. Git is version control software. Vim is the text editor. We will be using VS Code to edit our code, but it's good to have something in the terminal too. Curl is a command line tool to query web apis.
 
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -147,6 +150,13 @@ You'll see a button in the upper right "New SSH key", click that.
 
 In the larger text window at the bottom, press Cntrl + P to paste the ssh key value from the termial. You dont need to fill anything else out. Now click "Add SSH Key". 
 
+To test your ssh keys, back in your linux terminal type:
+
+```
+ssh -T git@github.com
+```
+
+
 Perfect, now your linux vm can securly connect to Github and you can push and pull code without having to type passwords. This is the way.
 
 Now pen the Gradio demo project from here: [https://github.com/mrloafbot/Gradio_Hello_World](https://github.com/mrloafbot/Gradio_Hello_World)
@@ -172,7 +182,7 @@ This will take you to your Projects directory.
 now type:
 
 ```
-git clone 
+git clone git@github.com:your-user-name/Gradio_Hello_World.git
 ```
 
 and then press the spacebar, then cntrl+shift+ to paste the ssh path from github. Press enter.

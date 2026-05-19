@@ -144,7 +144,7 @@ Next, upload your public ssh keys. [Github Instructions](https://docs.github.com
 
 Click on your accout icon in the upper right section of the page, it will open a dropdown, and click on "Settings".
 
-On the left side, find "SSH and GPT keys", and click on that.
+On the left side, find "SSH and GPG keys", and click on that.
 
 You'll see a button in the upper right "New SSH key", click that. 
 
